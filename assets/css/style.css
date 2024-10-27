@@ -328,6 +328,10 @@ header a{
         gap: 5px;
         margin-top: 10px;
     }
+    .thumbnail{
+        position: absolute;
+        bottom: 5px;
+    }
     .arrows button:hover{
         background-color: #eee;
         color: #555;
