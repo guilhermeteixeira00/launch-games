@@ -1,6 +1,6 @@
 # Launch Games
 
-I created this repository more for study using code from another developer
+I created this repository more for study using code from another developer and making my own adaptations. In the future, I will continue this project!!
 
 ### Responsive Multi Platforms !
 
