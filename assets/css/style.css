@@ -319,9 +319,6 @@ header a{
     }
 }
 @media screen and (max-width: 800px) {
-    body{
-        overflow: hidden;
-    }
     /* carousel */
     .carousel .list .item .content{
         top: 5%;
