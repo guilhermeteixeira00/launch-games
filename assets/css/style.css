@@ -325,6 +325,18 @@ header a{
 }
 @media (orientation: landscape) {
     /* carousel */
+    .carousel{
+        height: 90vh;
+        margin-top: -50px;
+        width: 100vw;
+        overflow-y: scroll;
+        position: relative;
+    }
+    .carousel .list .item img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
     .carousel .list .item .content{
         top: 20%;
         width: 1140px;
@@ -353,6 +365,7 @@ header a{
         bottom: 10px;
         gap: 10px;
         left: 60%;
+        top: 100%;
     }
     .thumbnail .item{
         width: 110px;
@@ -366,8 +379,8 @@ header a{
     }
     /* arrows */
     .arrows{
-        top: 120%;
-        right: 52%;
+        top: 85%;
+        right: 10%;
     }
 }
 @media screen and (max-width: 800px) {
