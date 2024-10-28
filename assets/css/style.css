@@ -347,10 +347,22 @@ header a{
     }
     /* thumbail */
     .thumbnail{
+        bottom: 10px;
         gap: 10px;
     }
     .thumbnail .item{
-        width: 120px;
-        height: 150px;
+        width: 110px;
+        height: 100px;
+    }
+    .thumbnail .item .content .title{
+        font-size: 0.6rem;
+    }
+    .thumbnail .item .content .description{
+        font-size: 0.6rem;
+    }
+    /* arrows */
+    .arrows{
+        top: 90%;
+        right: 52%;
     }
 }
