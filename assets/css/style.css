@@ -323,6 +323,55 @@ header a{
         opacity: 0;
     }
 }
+@media (orientation: landscape) {
+    body{
+        height: 100vh;
+    }
+    /* carousel */
+    .carousel .list .item .content{
+        top: 20%;
+        width: 1140px;
+        max-width: 100%;
+        padding-right: 20%;
+        left: 60%;
+    }
+    .carousel .list .item .author{
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+    .carousel .list .item .title,
+    .carousel .list .item .topic{
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.3em;
+    }
+    .carousel .list .item .des{
+        font-size: 0.9rem;
+        font-weight: bold;
+        padding: 5px;
+        width: 300px;
+    }
+    /* thumbail */
+    .thumbnail{
+        bottom: 10px;
+        gap: 10px;
+    }
+    .thumbnail .item{
+        width: 110px;
+        height: 100px;
+    }
+    .thumbnail .item .content .title{
+        font-size: 0.6rem;
+    }
+    .thumbnail .item .content .description{
+        font-size: 0.6rem;
+    }
+    /* arrows */
+    .arrows{
+        top: 120%;
+        right: 52%;
+    }
+}
 @media screen and (max-width: 800px) {
     /* carousel */
     .carousel .list .item .content{
