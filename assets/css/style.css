@@ -334,7 +334,7 @@ header a{
     }
     .carousel .list .item img{
         width: 100%;
-        height: 100%;
+        height: 200%;
         object-fit: cover;
     }
     .carousel .list .item .content{
