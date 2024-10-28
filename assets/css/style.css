@@ -325,7 +325,7 @@ header a{
 }
 @media (orientation: landscape) {
     /* carousel */
-    body{
+    header{
         overflow-y: scroll;
     }
     .carousel{
