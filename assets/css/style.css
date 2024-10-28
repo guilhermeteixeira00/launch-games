@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     margin: 0;
     background-color: #000;
@@ -68,9 +69,12 @@ header a{
     color: #f1683a;
 }
 .carousel .list .item .des{
+    padding: 20px;
+    font-weight: 600;
+    font-size: 1.5em;
     font-weight: bold;
-    background: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
+    background-color: rgba(0, 0, 0, 1.0);
 }
 .carousel .list .item .buttons{
     display: grid;
@@ -88,7 +92,6 @@ header a{
     border-radius: 20px;
 }
 .carousel .list .item .buttons button:nth-child(2){
-    background-color: rgba(0, 0, 0, 0.8);
     border: 1px solid #fff;
     border-radius: 20px;
     color: #eee;
@@ -323,6 +326,14 @@ header a{
         font-size: 1.5em;
         line-height: 1.3em;
     }
+    .carousel .list .item .des{
+        padding: 20px;
+        font-weight: 600;
+        font-size: 1em;
+        font-weight: bold;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 1.0);
+    }
     .carousel .list .item .buttons{
         grid-template-rows: 40px;
         gap: 5px;
@@ -330,7 +341,16 @@ header a{
     }
     .thumbnail{
         position: absolute;
-        bottom: 5px;
+        bottom: 30px;
+    }
+    .thumbnail .item{
+        width: 150px;
+        height: 190px;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .arrows button{
+        background-color: #f1683a;
     }
     .arrows button:hover{
         background-color: #eee;
