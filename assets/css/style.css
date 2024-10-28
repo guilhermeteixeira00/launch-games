@@ -326,13 +326,14 @@ header a{
 @media (orientation: landscape) {
     /* carousel */
     header{
-        overflow-y: scroll;
+        position: relative;
     }
     .carousel{
         height: 90vh;
         margin-top: -50px;
         width: 100vw;
         position: relative;
+        overflow-y: scroll;
     }
     .carousel .list .item img{
         width: 100%;
