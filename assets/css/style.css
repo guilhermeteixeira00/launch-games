@@ -352,6 +352,7 @@ header a{
     .thumbnail{
         bottom: 10px;
         gap: 10px;
+        left: 60%;
     }
     .thumbnail .item{
         width: 110px;
