@@ -324,9 +324,6 @@ header a{
     }
 }
 @media (orientation: landscape) {
-    body{
-        height: 100vh;
-    }
     /* carousel */
     .carousel .list .item .content{
         top: 20%;
