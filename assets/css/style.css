@@ -96,7 +96,7 @@ header a{
     border-radius: 20px;
 }
 .carousel .list .item .buttons button:nth-child(2){
-    background-color: transparent;
+    background-color: #eee;
     text-shadow: 2px 2px 10px black;
     border: 1px solid #f1683a;
     color: #f1683a;
