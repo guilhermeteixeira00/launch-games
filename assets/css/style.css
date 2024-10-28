@@ -327,6 +327,7 @@ header a{
         top: 10%;
         width: 1140px;
         max-width: 100%;
+        padding-right: 20%;
         left: 60%;
     }
     .carousel .list .item .author{
