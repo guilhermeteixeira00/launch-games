@@ -79,14 +79,14 @@ header a{
     background-color: rgba(0, 0, 0, 1.0);
     border-radius: 20px;
 }
-.carousel .list .item .buttons{
+.carousel .list .item .buttons a{
     display: grid;
     grid-template-columns: repeat(2, 130px);
     grid-template-rows: 40px;
     gap: 5px;
     margin-top: 20px;
 }
-.carousel .list .item .buttons button{
+.carousel .list .item .buttons a button{
     border: none;
     background-color: #f1683a;
     color: #eee;
@@ -94,12 +94,14 @@ header a{
     font-family: Poppins;
     font-weight: bolder;
     border-radius: 20px;
+    cursor: pointer;
 }
-.carousel .list .item .buttons button:nth-child(2){
+.carousel .list .item .buttons a button:nth-child(2){
     background-color: #eee;
     text-shadow: 2px 2px 10px black;
     border: 1px solid #f1683a;
     color: #f1683a;
+    cursor: pointer;
 }
 /* thumbail */
 .thumbnail{
