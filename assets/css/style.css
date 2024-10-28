@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 body{
     margin: 0;
     background-color: #000;
     color: #eee;
     font-family: Poppins;
     font-size: 12px;
-    
 }
 a{
     text-decoration: none;
@@ -22,7 +20,7 @@ header{
     z-index: 100;
 }
 header a{
-    color: #eee;
+    color: cyan;
     margin-right: 40px;
 }
 /* carousel */
@@ -46,7 +44,7 @@ header a{
 }
 .carousel .list .item .content{
     position: absolute;
-    top: 20%;
+    top: 10%;
     width: 1140px;
     max-width: 80%;
     left: 40%;
@@ -58,11 +56,14 @@ header a{
 }
 .carousel .list .item .author{
     font-weight: bold;
+    font-size: 1.2rem;
     letter-spacing: 10px;
+    color: #f1683a;
 }
 .carousel .list .item .title,
 .carousel .list .item .topic{
-    font-size: 3em;
+    color: cyan;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 1.3em;
 }
@@ -70,12 +71,11 @@ header a{
     color: #f1683a;
 }
 .carousel .list .item .des{
-    padding: 20px;
-    font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.0rem;
     font-weight: bold;
-    border-radius: 10px;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
 }
 .carousel .list .item .buttons{
     display: grid;
@@ -89,13 +89,14 @@ header a{
     background-color: #f1683a;
     letter-spacing: 3px;
     font-family: Poppins;
-    font-weight: 500;
+    font-weight: bolder;
     border-radius: 20px;
 }
 .carousel .list .item .buttons button:nth-child(2){
-    border: 1px solid #fff;
-    border-radius: 20px;
-    color: #eee;
+    background-color: transparent;
+    text-shadow: 2px 2px 10px black;
+    border: 1px solid #f1683a;
+    color: #f1683a;
 }
 /* thumbail */
 .thumbnail{
@@ -127,10 +128,18 @@ header a{
     right: 10px;
 }
 .thumbnail .item .content .title{
-    font-weight: 500;
+    font-weight: bold;
+    padding: 0 5px;
+    color: cyan;
+    border-radius: 20px 20px 0 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .thumbnail .item .content .description{
-    font-weight: 300;
+    font-weight: bold;
+    padding: 0 5px;
+    color: #f1683a;
+    border-radius: 0 0 20px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 /* arrows */
 .arrows{
@@ -148,7 +157,7 @@ header a{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #eee4;
+    background-color: #f1683a;
     border: none;
     color: #fff;
     font-family: monospace;
@@ -156,7 +165,7 @@ header a{
     transition: .5s;
 }
 .arrows button:hover{
-    background-color: #fff;
+    background-color: #777;
     color: #000;
 }
 
@@ -309,58 +318,36 @@ header a{
         opacity: 0;
     }
 }
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 800px) {
+    /* carousel */
     .carousel .list .item .content{
-        position: absolute;
-        top: 8%;
+        top: 10%;
         width: 1140px;
-        max-width: 80%;
-        left: 50%;
-        transform: translateX(-50%);
-        padding-right: 0;
+        max-width: 100%;
+        left: 60%;
     }
     .carousel .list .item .author{
+        font-size: 1rem;
         letter-spacing: 5px;
     }
     .carousel .list .item .title,
     .carousel .list .item .topic{
-        font-size: 1.5em;
+        font-size: 1rem;
+        font-weight: bold;
         line-height: 1.3em;
     }
     .carousel .list .item .des{
-        padding: 20px;
-        font-weight: 600;
-        font-size: 1em;
+        font-size: 0.9rem;
         font-weight: bold;
-        border-radius: 10px;
-        background-color: rgba(0, 0, 0, 1.0);
+        padding: 5px;
+        width: 300px;
     }
-    .carousel .list .item .buttons{
-        grid-template-rows: 40px;
-        gap: 5px;
-        margin-top: 10px;
-    }
+    /* thumbail */
     .thumbnail{
-        position: absolute;
-        bottom: 30px;
+        gap: 10px;
     }
     .thumbnail .item{
-        width: 150px;
-        height: 190px;
-        flex-shrink: 0;
-        position: relative;
+        width: 120px;
+        height: 150px;
     }
-    .arrows button{
-        background-color: #f1683a;
-    }
-    .arrows button:hover{
-        background-color: #eee;
-        color: #555;
-        font-weight: bold;
-        font-size: large;
-        transition: .5s;
-    }
-}   
-
-
-
+}
