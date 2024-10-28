@@ -89,6 +89,7 @@ header a{
 .carousel .list .item .buttons button{
     border: none;
     background-color: #f1683a;
+    color: #eee;
     letter-spacing: 3px;
     font-family: Poppins;
     font-weight: bolder;
