@@ -382,8 +382,8 @@ header a{
     }
     /* arrows */
     .arrows{
-        top: 85%;
-        right: 80%;
+        top: 20%;
+        right: 10%;
     }
 }
 @media screen and (max-width: 800px) {
